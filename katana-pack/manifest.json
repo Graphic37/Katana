@@ -1,0 +1,2452 @@
+{
+  "character": "characters/character_base.glb",
+  "weapons": {
+    "katana": "weapons/katana.glb",
+    "greatsword": "weapons/greatsword.glb"
+  },
+  "grip": {
+    "pos": [
+      -0.04,
+      -0.07,
+      -0.06
+    ],
+    "rotDeg": [
+      -90,
+      -155,
+      -155
+    ],
+    "scale": 1
+  },
+  "clips": [
+    {
+      "name": "Damage_Die",
+      "category": "reactions",
+      "duration": 2.167,
+      "file": "anim/reactions/Damage_Die.glb"
+    },
+    {
+      "name": "Damage_Die_Loop",
+      "category": "reactions",
+      "duration": 1.0,
+      "file": "anim/reactions/Damage_Die_Loop.glb"
+    },
+    {
+      "name": "Damage_Die_Root",
+      "category": "reactions",
+      "duration": 2.167,
+      "file": "anim/reactions/Damage_Die_Root.glb"
+    },
+    {
+      "name": "Attack_3Combo_1",
+      "category": "attacks",
+      "duration": 1.25,
+      "file": "anim/attacks/Attack_3Combo_1.glb"
+    },
+    {
+      "name": "Attack_3Combo_1_Inplace",
+      "category": "attacks",
+      "duration": 1.25,
+      "file": "anim/attacks/Attack_3Combo_1_Inplace.glb"
+    },
+    {
+      "name": "Attack_3Combo_1_Move",
+      "category": "attacks",
+      "duration": 1.25,
+      "file": "anim/attacks/Attack_3Combo_1_Move.glb"
+    },
+    {
+      "name": "Attack_3Combo_2",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_3Combo_2.glb"
+    },
+    {
+      "name": "Attack_3Combo_2_Inplace",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_3Combo_2_Inplace.glb"
+    },
+    {
+      "name": "Attack_3Combo_2_Move",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_3Combo_2_Move.glb"
+    },
+    {
+      "name": "Attack_3Combo_3",
+      "category": "attacks",
+      "duration": 2.417,
+      "file": "anim/attacks/Attack_3Combo_3.glb"
+    },
+    {
+      "name": "Attack_3Combo_3_Inplace",
+      "category": "attacks",
+      "duration": 2.417,
+      "file": "anim/attacks/Attack_3Combo_3_Inplace.glb"
+    },
+    {
+      "name": "Attack_3Combo_ALL",
+      "category": "attacks",
+      "duration": 3.667,
+      "file": "anim/attacks/Attack_3Combo_ALL.glb"
+    },
+    {
+      "name": "Attack_3Combo_ALL_Inplace",
+      "category": "attacks",
+      "duration": 3.667,
+      "file": "anim/attacks/Attack_3Combo_ALL_Inplace.glb"
+    },
+    {
+      "name": "Attack_4Combo_1",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_4Combo_1.glb"
+    },
+    {
+      "name": "Attack_4Combo_1_Inplace",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_4Combo_1_Inplace.glb"
+    },
+    {
+      "name": "Attack_4Combo_2",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_4Combo_2.glb"
+    },
+    {
+      "name": "Attack_4Combo_2_Inplace",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Attack_4Combo_2_Inplace.glb"
+    },
+    {
+      "name": "Attack_4Combo_ALL",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_4Combo_ALL.glb"
+    },
+    {
+      "name": "Attack_4Combo_ALL_Inplace",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_4Combo_ALL_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_1_Inplace",
+      "category": "attacks",
+      "duration": 1.083,
+      "file": "anim/attacks/Attack_5Combo_1_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_1_Move",
+      "category": "attacks",
+      "duration": 1.083,
+      "file": "anim/attacks/Attack_5Combo_1_Move.glb"
+    },
+    {
+      "name": "Attack_5Combo_2_Move",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Attack_5Combo_2_Move.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_1",
+      "category": "attacks",
+      "duration": 1.333,
+      "file": "anim/attacks/Jump_Attack_Combo_1.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_1_Attach",
+      "category": "attacks",
+      "duration": 0.792,
+      "file": "anim/attacks/Jump_Attack_Combo_1_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_1_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 0.792,
+      "file": "anim/attacks/Jump_Attack_Combo_1_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_1_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.333,
+      "file": "anim/attacks/Jump_Attack_Combo_1_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_2",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Jump_Attack_Combo_2.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_2_Attach",
+      "category": "attacks",
+      "duration": 0.583,
+      "file": "anim/attacks/Jump_Attack_Combo_2_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_2_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 0.583,
+      "file": "anim/attacks/Jump_Attack_Combo_2_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_2_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Jump_Attack_Combo_2_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_3",
+      "category": "attacks",
+      "duration": 1.375,
+      "file": "anim/attacks/Jump_Attack_Combo_3.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_3_Attach",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Jump_Attack_Combo_3_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_3_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Jump_Attack_Combo_3_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_3_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.375,
+      "file": "anim/attacks/Jump_Attack_Combo_3_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_4",
+      "category": "attacks",
+      "duration": 1.333,
+      "file": "anim/attacks/Jump_Attack_Combo_4.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_4_Attach",
+      "category": "attacks",
+      "duration": 0.75,
+      "file": "anim/attacks/Jump_Attack_Combo_4_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_4_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 0.75,
+      "file": "anim/attacks/Jump_Attack_Combo_4_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_4_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.333,
+      "file": "anim/attacks/Jump_Attack_Combo_4_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_5",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Jump_Attack_Combo_5.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_5_Attach",
+      "category": "attacks",
+      "duration": 0.708,
+      "file": "anim/attacks/Jump_Attack_Combo_5_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_5_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 0.708,
+      "file": "anim/attacks/Jump_Attack_Combo_5_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_5_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Jump_Attack_Combo_5_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_6",
+      "category": "attacks",
+      "duration": 1.5,
+      "file": "anim/attacks/Jump_Attack_Combo_6.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_6_Attach",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Jump_Attack_Combo_6_Attach.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_6_Attach_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Jump_Attack_Combo_6_Attach_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Attack_Combo_6_ZeroHeight",
+      "category": "attacks",
+      "duration": 1.5,
+      "file": "anim/attacks/Jump_Attack_Combo_6_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Block",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Jump_Block.glb"
+    },
+    {
+      "name": "Jump_Block_Root",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Jump_Block_Root.glb"
+    },
+    {
+      "name": "Skill_D",
+      "category": "skills",
+      "duration": 2.167,
+      "file": "anim/skills/Skill_D.glb"
+    },
+    {
+      "name": "Skill_D_Fix",
+      "category": "skills",
+      "duration": 2.167,
+      "file": "anim/skills/Skill_D_Fix.glb"
+    },
+    {
+      "name": "UpperAttack_ZeroHeight",
+      "category": "attacks",
+      "duration": 2.5,
+      "file": "anim/attacks/UpperAttack_ZeroHeight.glb"
+    },
+    {
+      "name": "UpperAttack_ZeroHeight_Z0",
+      "category": "attacks",
+      "duration": 2.5,
+      "file": "anim/attacks/UpperAttack_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Crouch_ver_A_BL45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_BL45.glb"
+    },
+    {
+      "name": "Crouch_ver_A_BL45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_BL45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_BR45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_BR45.glb"
+    },
+    {
+      "name": "Crouch_ver_A_BR45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_BR45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Bwd",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_Bwd.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Bwd_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_Bwd_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_FL45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_FL45.glb"
+    },
+    {
+      "name": "Crouch_ver_A_FL45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_FL45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_FR45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_FR45.glb"
+    },
+    {
+      "name": "Crouch_ver_A_FR45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_FR45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Fwd",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_Fwd.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Fwd_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_A_Fwd_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_Idle.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_Idle_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_To_Idle_ver_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Crouch_ver_A_Idle_To_Idle_ver_A.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_To_Idle_ver_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Crouch_ver_A_Idle_To_Idle_ver_A_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_To_Idle_ver_B",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Crouch_ver_A_Idle_To_Idle_ver_B.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_To_Idle_ver_B_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Crouch_ver_A_Idle_To_Idle_ver_B_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_Turn",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Crouch_ver_A_Idle_Turn.glb"
+    },
+    {
+      "name": "Crouch_ver_A_Idle_Turn_Root",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Crouch_ver_A_Idle_Turn_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_L90",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_L90.glb"
+    },
+    {
+      "name": "Crouch_ver_A_L90_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_L90_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_A_R90",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_R90.glb"
+    },
+    {
+      "name": "Crouch_ver_A_R90_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_A_R90_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_BL45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_BL45.glb"
+    },
+    {
+      "name": "Crouch_ver_B_BL45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_BL45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_BR45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_BR45.glb"
+    },
+    {
+      "name": "Crouch_ver_B_BR45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_BR45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Bwd",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_Bwd.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Bwd_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_Bwd_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_FL45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_FL45.glb"
+    },
+    {
+      "name": "Crouch_ver_B_FL45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_FL45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_FR45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_FR45.glb"
+    },
+    {
+      "name": "Crouch_ver_B_FR45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_FR45_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Fwd",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_Fwd.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Fwd_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Crouch_ver_B_Fwd_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_Idle.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_Idle_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_To_Idle_ver_A",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Crouch_ver_B_Idle_To_Idle_ver_A.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_To_Idle_ver_A_Root",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Crouch_ver_B_Idle_To_Idle_ver_A_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_To_Idle_ver_B",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Crouch_ver_B_Idle_To_Idle_ver_B.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_To_Idle_ver_B_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Crouch_ver_B_Idle_To_Idle_ver_B_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_Turn",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Crouch_ver_B_Idle_Turn.glb"
+    },
+    {
+      "name": "Crouch_ver_B_Idle_Turn_Root",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Crouch_ver_B_Idle_Turn_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_L90",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_L90.glb"
+    },
+    {
+      "name": "Crouch_ver_B_L90_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_L90_Root.glb"
+    },
+    {
+      "name": "Crouch_ver_B_R90",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_R90.glb"
+    },
+    {
+      "name": "Crouch_ver_B_R90_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Crouch_ver_B_R90_Root.glb"
+    },
+    {
+      "name": "Double_Jump_ALL_ZeroHeight",
+      "category": "movement",
+      "duration": 2.0,
+      "file": "anim/movement/Double_Jump_ALL_ZeroHeight.glb"
+    },
+    {
+      "name": "Double_Jump_ALL_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 2.0,
+      "file": "anim/movement/Double_Jump_ALL_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Double_Jump_End_ZeroHeight",
+      "category": "movement",
+      "duration": 1.25,
+      "file": "anim/movement/Double_Jump_End_ZeroHeight.glb"
+    },
+    {
+      "name": "Double_Jump_End_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 1.25,
+      "file": "anim/movement/Double_Jump_End_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Double_Jump_Loop_ZeroHeight",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Double_Jump_Loop_ZeroHeight.glb"
+    },
+    {
+      "name": "Double_Jump_Loop_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Double_Jump_Loop_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Double_Jump_Start_ZeroHeight",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Double_Jump_Start_ZeroHeight.glb"
+    },
+    {
+      "name": "Double_Jump_Start_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Double_Jump_Start_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_A_To_Jogging_A.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A_Root",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_A_To_Jogging_A_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Jogging_A_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Jogging_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Jogging_A_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_A_To_Jogging_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Jogging_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_A_To_Run_A.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A_Root",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_A_To_Run_A_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Run_A_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Run_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Run_A_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_A_To_Run_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_A_To_Run_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Walk_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_To_Walk_A_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_A_To_Walk_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_To_Walk_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_A_To_Walk_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_To_Walk_A_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_A_To_Walk_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_To_Walk_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_A_Turn",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_Turn.glb"
+    },
+    {
+      "name": "Idle_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Idle_A_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Idle_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.75,
+      "file": "anim/movement/Idle_A_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.75,
+      "file": "anim/movement/Idle_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_A_Turn_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_A_Turn_Root.glb"
+    },
+    {
+      "name": "Idle_A_to_B",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Idle_A_to_B.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_B_To_Jogging_B.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B_Root",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_B_To_Jogging_B_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Jogging_B_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Jogging_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Jogging_B_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_B_To_Jogging_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Jogging_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_B_To_Run_B.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B_Root",
+      "category": "movement",
+      "duration": 0.167,
+      "file": "anim/movement/Idle_B_To_Run_B_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Run_B_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Run_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Run_B_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_B_To_Run_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.417,
+      "file": "anim/movement/Idle_B_To_Run_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Walk_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_B_To_Walk_B_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_B_To_Walk_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_B_To_Walk_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_B_To_Walk_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Idle_B_To_Walk_B_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_B_To_Walk_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Idle_B_To_Walk_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_B_Turn",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_B_Turn.glb"
+    },
+    {
+      "name": "Idle_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Idle_B_Turn_L90.glb"
+    },
+    {
+      "name": "Idle_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Idle_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Idle_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.75,
+      "file": "anim/movement/Idle_B_Turn_R90.glb"
+    },
+    {
+      "name": "Idle_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.75,
+      "file": "anim/movement/Idle_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Idle_B_Turn_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Idle_B_Turn_Root.glb"
+    },
+    {
+      "name": "Idle_B_to_A",
+      "category": "movement",
+      "duration": 1.167,
+      "file": "anim/movement/Idle_B_to_A.glb"
+    },
+    {
+      "name": "Idle_To_Walk_ver_A",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Idle_To_Walk_ver_A.glb"
+    },
+    {
+      "name": "Idle_To_Walk_ver_A_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Idle_To_Walk_ver_A_Root.glb"
+    },
+    {
+      "name": "Idle_To_Walk_ver_B",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Idle_To_Walk_ver_B.glb"
+    },
+    {
+      "name": "Idle_To_Walk_ver_B_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Idle_To_Walk_ver_B_Root.glb"
+    },
+    {
+      "name": "Idle_ver_A",
+      "category": "movement",
+      "duration": 2.0,
+      "file": "anim/movement/Idle_ver_A.glb"
+    },
+    {
+      "name": "Idle_ver_A_To_Crouch_ver_A_Idle",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Idle_ver_A_To_Crouch_ver_A_Idle.glb"
+    },
+    {
+      "name": "Idle_ver_A_To_Crouch_ver_A_Idle_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Idle_ver_A_To_Crouch_ver_A_Idle_Root.glb"
+    },
+    {
+      "name": "Idle_ver_A_To_Crouch_ver_B_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Idle_ver_A_To_Crouch_ver_B_Idle.glb"
+    },
+    {
+      "name": "Idle_ver_A_To_Crouch_ver_B_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Idle_ver_A_To_Crouch_ver_B_Idle_Root.glb"
+    },
+    {
+      "name": "Idle_ver_B",
+      "category": "movement",
+      "duration": 2.0,
+      "file": "anim/movement/Idle_ver_B.glb"
+    },
+    {
+      "name": "Idle_ver_B_To_Crouch_ver_A_Idle",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Idle_ver_B_To_Crouch_ver_A_Idle.glb"
+    },
+    {
+      "name": "Idle_ver_B_To_Crouch_ver_A_Idle_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Idle_ver_B_To_Crouch_ver_A_Idle_Root.glb"
+    },
+    {
+      "name": "Idle_ver_B_To_Crouch_ver_B_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Idle_ver_B_To_Crouch_ver_B_Idle.glb"
+    },
+    {
+      "name": "Idle_ver_B_To_Crouch_ver_B_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Idle_ver_B_To_Crouch_ver_B_Idle_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_B",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_B.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_BL45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_BL45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_BL45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_BL45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_BR45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_BR45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_BR45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_BR45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_B_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_B_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_F",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_F.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_FL45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_FL45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_FL45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_FL45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_FR45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_FR45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_FR45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_FR45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_F_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_F_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_L90",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_L90.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_L90_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_L90_Root_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_L90_Root_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_L90_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_L90_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_R90",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_R90.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_R90_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_R90_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_R90_Root_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_R90_Root_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verA_R90_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verA_R90_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_B",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_B.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_BL45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_BL45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_BL45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_BL45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_BR45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_BR45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_BR45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_BR45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_B_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_B_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_F",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_F.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_FL45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_FL45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_FL45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_FL45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_FR45",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_FR45.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_FR45_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_FR45_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_F_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_F_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_L90",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_L90.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_L90_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_L90_Root_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_L90_Root_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_L90_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_L90_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_R90",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_R90.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_R90_Root",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_R90_Root.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_R90_Root_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_R90_Root_vol2.glb"
+    },
+    {
+      "name": "Jogging_8Way_verB_R90_vol2",
+      "category": "movement",
+      "duration": 0.917,
+      "file": "anim/movement/Jogging_8Way_verB_R90_vol2.glb"
+    },
+    {
+      "name": "Jogging_A_To_Idle_ver_A_Turn_L90",
+      "category": "movement",
+      "duration": 1.0,
+      "file": "anim/movement/Jogging_A_To_Idle_ver_A_Turn_L90.glb"
+    },
+    {
+      "name": "Jogging_A_To_Idle_ver_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 1.0,
+      "file": "anim/movement/Jogging_A_To_Idle_ver_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_A_To_Idle_ver_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Idle_ver_A_Turn_R90.glb"
+    },
+    {
+      "name": "Jogging_A_To_Idle_ver_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Idle_ver_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Jogging_A_To_Jogging_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Jogging_A_Turn_L90.glb"
+    },
+    {
+      "name": "Jogging_A_To_Jogging_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Jogging_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_A_To_Jogging_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Jogging_A_Turn_R90.glb"
+    },
+    {
+      "name": "Jogging_A_To_Jogging_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_A_To_Jogging_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Jogging_B_To_Idle_ver_B_Turn_L90",
+      "category": "movement",
+      "duration": 1.0,
+      "file": "anim/movement/Jogging_B_To_Idle_ver_B_Turn_L90.glb"
+    },
+    {
+      "name": "Jogging_B_To_Idle_ver_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 1.0,
+      "file": "anim/movement/Jogging_B_To_Idle_ver_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_B_To_Idle_ver_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_B_To_Idle_ver_B_Turn_R90.glb"
+    },
+    {
+      "name": "Jogging_B_To_Idle_ver_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_B_To_Idle_ver_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Jogging_B_To_Jogging_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_B_To_Jogging_B_Turn_L90.glb"
+    },
+    {
+      "name": "Jogging_B_To_Jogging_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Jogging_B_To_Jogging_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Jogging_B_To_Jogging_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Jogging_B_To_Jogging_B_Turn_R90.glb"
+    },
+    {
+      "name": "Jogging_B_To_Jogging_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Jogging_B_To_Jogging_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Jump_End",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Jump_End.glb"
+    },
+    {
+      "name": "Jump_End_ZeroHeight",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Jump_End_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_End_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Jump_End_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Jump_Loop",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Jump_Loop.glb"
+    },
+    {
+      "name": "Jump_Loop_ZeroHeight",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Jump_Loop_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Loop_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Jump_Loop_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Jump_Start",
+      "category": "movement",
+      "duration": 0.333,
+      "file": "anim/movement/Jump_Start.glb"
+    },
+    {
+      "name": "Jump_Start_ZeroHeight",
+      "category": "movement",
+      "duration": 0.333,
+      "file": "anim/movement/Jump_Start_ZeroHeight.glb"
+    },
+    {
+      "name": "Jump_Start_ZeroHeight_Z0",
+      "category": "movement",
+      "duration": 0.333,
+      "file": "anim/movement/Jump_Start_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Run_Fast_Root_ver_A",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Run_Fast_Root_ver_A.glb"
+    },
+    {
+      "name": "Run_Fast_Root_ver_B",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Run_Fast_Root_ver_B.glb"
+    },
+    {
+      "name": "Run_Fast_To_Idle_ver_A",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Run_Fast_To_Idle_ver_A.glb"
+    },
+    {
+      "name": "Run_Fast_To_Idle_ver_B",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Run_Fast_To_Idle_ver_B.glb"
+    },
+    {
+      "name": "Run_Fast_To_Idle_ver_C",
+      "category": "movement",
+      "duration": 1.167,
+      "file": "anim/movement/Run_Fast_To_Idle_ver_C.glb"
+    },
+    {
+      "name": "Run_Fast_To_Idle_ver_D",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Run_Fast_To_Idle_ver_D.glb"
+    },
+    {
+      "name": "Run_Fast_ver_A",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Run_Fast_ver_A.glb"
+    },
+    {
+      "name": "Run_Fast_ver_B",
+      "category": "movement",
+      "duration": 0.375,
+      "file": "anim/movement/Run_Fast_ver_B.glb"
+    },
+    {
+      "name": "Run_Injured_Damage_ver_A",
+      "category": "reactions",
+      "duration": 2.167,
+      "file": "anim/reactions/Run_Injured_Damage_ver_A.glb"
+    },
+    {
+      "name": "Run_Injured_Damage_ver_A_Root",
+      "category": "reactions",
+      "duration": 1.5,
+      "file": "anim/reactions/Run_Injured_Damage_ver_A_Root.glb"
+    },
+    {
+      "name": "Run_Injured_Damage_ver_B_Root",
+      "category": "reactions",
+      "duration": 1.5,
+      "file": "anim/reactions/Run_Injured_Damage_ver_B_Root.glb"
+    },
+    {
+      "name": "Run_Injured_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Run_Injured_Root.glb"
+    },
+    {
+      "name": "Run_Root_ver_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_Root_ver_A.glb"
+    },
+    {
+      "name": "Run_Root_ver_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_Root_ver_B.glb"
+    },
+    {
+      "name": "Run_To-Fast_Root_ver_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_To-Fast_Root_ver_A.glb"
+    },
+    {
+      "name": "Run_To-Fast_Root_ver_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_To-Fast_Root_ver_B.glb"
+    },
+    {
+      "name": "Run_To-Fast_ver_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_To-Fast_ver_A.glb"
+    },
+    {
+      "name": "Run_To-Fast_ver_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_To-Fast_ver_B.glb"
+    },
+    {
+      "name": "Run_ver_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_ver_A.glb"
+    },
+    {
+      "name": "Run_ver_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Run_ver_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Jog_A",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Jog_B",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Run_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Run_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Walk_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Walk_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Walk_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Walk_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Walk_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Walk_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_A_to_Walk_B_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_A_to_Walk_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Jog_A",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Jog_B",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Run_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Run_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Walk_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Walk_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Walk_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Walk_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Walk_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Walk_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Idle_B_to_Walk_B_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Idle_B_to_Walk_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Jog_A",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Jog_B",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Run_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Run_B",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_A_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_A_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Jog_A",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Jog_B",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Run_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Run_B",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Jog_B_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Jog_B_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_A_to_Run_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_A_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_A_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_A_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_A_to_Run_B",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_A_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_A_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_A_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_B_to_Run_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_B_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_B_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_B_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_B_to_Run_B",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_B_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Run_B_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Run_B_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Jog_A",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Jog_B",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.708,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Run_A",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Run_B",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.625,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Walk_A",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Walk_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Walk_A_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Walk_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Walk_B",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Walk_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_A_to_Walk_B_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Turn_in_place_Walk_A_to_Walk_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Jog_A",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Jog_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Jog_A_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Jog_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Jog_B",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Jog_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Jog_B_Root",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Jog_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Run_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Run_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Run_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Run_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Run_B",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Run_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Run_B_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Run_B_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Walk_A",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Walk_A.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Walk_A_Root",
+      "category": "movement",
+      "duration": 0.542,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Walk_A_Root.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Walk_B",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Walk_B.glb"
+    },
+    {
+      "name": "Turn_in_place_Walk_B_to_Walk_B_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Turn_in_place_Walk_B_to_Walk_B_Root.glb"
+    },
+    {
+      "name": "Walk_A_To_Idle_ver_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Walk_A_To_Idle_ver_A_Turn_L90.glb"
+    },
+    {
+      "name": "Walk_A_To_Idle_ver_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Walk_A_To_Idle_ver_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Walk_A_To_Idle_ver_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Idle_ver_A_Turn_R90.glb"
+    },
+    {
+      "name": "Walk_A_To_Idle_ver_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Idle_ver_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Walk_A_To_Walk_A_Turn_L90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Walk_A_Turn_L90.glb"
+    },
+    {
+      "name": "Walk_A_To_Walk_A_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Walk_A_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Walk_A_To_Walk_A_Turn_R90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Walk_A_Turn_R90.glb"
+    },
+    {
+      "name": "Walk_A_To_Walk_A_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_A_To_Walk_A_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Walk_B_To_Idle_ver_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Walk_B_To_Idle_ver_B_Turn_L90.glb"
+    },
+    {
+      "name": "Walk_B_To_Idle_ver_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Walk_B_To_Idle_ver_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Walk_B_To_Idle_ver_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Idle_ver_B_Turn_R90.glb"
+    },
+    {
+      "name": "Walk_B_To_Idle_ver_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Idle_ver_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Walk_B_To_Walk_B_Turn_L90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Walk_B_Turn_L90.glb"
+    },
+    {
+      "name": "Walk_B_To_Walk_B_Turn_L90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Walk_B_Turn_L90_Root.glb"
+    },
+    {
+      "name": "Walk_B_To_Walk_B_Turn_R90",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Walk_B_Turn_R90.glb"
+    },
+    {
+      "name": "Walk_B_To_Walk_B_Turn_R90_Root",
+      "category": "movement",
+      "duration": 0.792,
+      "file": "anim/movement/Walk_B_To_Walk_B_Turn_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_L45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_L45.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_L45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_L45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_L90.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_R45",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Walk_ver_A_Back_R45.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_R45_Root",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Walk_ver_A_Back_R45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_R90.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Back_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Back_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_L45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_L45.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_L45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_L45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_L90.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_R45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_R45.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_R45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_R45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_R90.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_Front_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_Front_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_L90.glb"
+    },
+    {
+      "name": "Walk_ver_A_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_R90.glb"
+    },
+    {
+      "name": "Walk_ver_A_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_A_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Crouch_ver_A_Idle",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Walk_ver_A_To_Crouch_ver_A_Idle.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Crouch_ver_A_Idle_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Walk_ver_A_To_Crouch_ver_A_Idle_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Crouch_ver_B_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Walk_ver_A_To_Crouch_ver_B_Idle.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Crouch_ver_B_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Walk_ver_A_To_Crouch_ver_B_Idle_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Idle_ver_A",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_A_To_Idle_ver_A.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Idle_ver_A_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_A_To_Idle_ver_A_Root.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Idle_ver_B",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_A_To_Idle_ver_B.glb"
+    },
+    {
+      "name": "Walk_ver_A_To_Idle_ver_B_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_A_To_Idle_ver_B_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_L45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_L45.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_L45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_L45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_L90.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_R45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_R45.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_R45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_R45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_R90.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Back_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Back_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_L45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_L45.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_L45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_L45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_L90.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_R45",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_R45.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_R45_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_R45_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_R90.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_Front_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_Front_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_L90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_L90.glb"
+    },
+    {
+      "name": "Walk_ver_B_L90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_L90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_R90",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_R90.glb"
+    },
+    {
+      "name": "Walk_ver_B_R90_Root",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Walk_ver_B_R90_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Crouch_ver_A_Idle",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Walk_ver_B_To_Crouch_ver_A_Idle.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Crouch_ver_A_Idle_Root",
+      "category": "movement",
+      "duration": 0.5,
+      "file": "anim/movement/Walk_ver_B_To_Crouch_ver_A_Idle_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Crouch_ver_B_Idle",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Walk_ver_B_To_Crouch_ver_B_Idle.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Crouch_ver_B_Idle_Root",
+      "category": "movement",
+      "duration": 1.333,
+      "file": "anim/movement/Walk_ver_B_To_Crouch_ver_B_Idle_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Idle_ver_A",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_B_To_Idle_ver_A.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Idle_ver_A_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_B_To_Idle_ver_A_Root.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Idle_ver_B",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_B_To_Idle_ver_B.glb"
+    },
+    {
+      "name": "Walk_ver_B_To_Idle_ver_B_Root",
+      "category": "movement",
+      "duration": 0.583,
+      "file": "anim/movement/Walk_ver_B_To_Idle_ver_B_Root.glb"
+    }
+  ]
+}

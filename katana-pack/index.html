@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katana Pack — Moveset Viewer</title>
+<style>
+  :root{--bg:#16181d;--panel:#21242b;--line:#333845;--ink:#e3e7ec;--dim:#8b929c;--accent:#5ec27a}
+  html,body{margin:0;height:100%;background:var(--bg);overflow:hidden;font-family:system-ui,sans-serif;color:var(--ink)}
+  #c{display:block;width:100%;height:100%}
+  #panel{position:fixed;top:0;left:0;height:100%;width:240px;background:var(--panel);border-right:1px solid var(--line);padding:12px;box-sizing:border-box;overflow-y:auto}
+  #panel h1{font-size:14px;margin:0 0 8px}
+  #search{width:100%;box-sizing:border-box;background:#1a1d23;border:1px solid var(--line);color:var(--ink);border-radius:5px;padding:6px 8px;font-size:12px;margin-bottom:8px}
+  .cat{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim);margin:10px 0 4px;cursor:pointer}
+  button.anim{display:block;width:100%;text-align:left;background:#2a2e37;color:var(--ink);border:1px solid #383d49;border-radius:5px;padding:5px 8px;margin:2px 0;cursor:pointer;font-size:11px}
+  button.anim:hover{background:#323845}button.anim.active{background:#2f5f3f;border-color:var(--accent)}
+  #ctrlbar{position:fixed;bottom:12px;left:252px;display:flex;gap:6px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px}
+  #ctrlbar button{background:#2f3742;color:var(--ink);border:1px solid #444b57;border-radius:4px;padding:4px 8px;cursor:pointer}
+  #now{position:fixed;top:12px;left:252px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 12px;font-size:13px}
+  #now b{color:var(--accent)}
+  label.tog{font-size:11px;color:var(--dim);display:flex;align-items:center;gap:4px;cursor:pointer}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="panel">
+  <h1>Katana Moveset</h1>
+  <input id="search" placeholder="filter clips…">
+  <div id="list"></div>
+</div>
+<div id="now">loading…</div>
+<div id="ctrlbar">
+  <button id="pause">⏸</button><button id="restart">↺</button>
+  <button data-sp="0.25">0.25×</button><button data-sp="0.5">0.5×</button><button data-sp="1">1×</button>
+  <label class="tog"><input type="checkbox" id="loopChk" checked> loop</label>
+</div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { KatanaCharacter } from './loader.js';
+
+// when served from the repo root, base is current dir
+const BASE = './';
+const nowEl=document.getElementById('now'), listEl=document.getElementById('list');
+
+const renderer=new THREE.WebGLRenderer({canvas:c,antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x16181d);
+const camera=new THREE.PerspectiveCamera(45,innerWidth/innerHeight,0.1,1000);camera.position.set(2.4,1.7,3.2);
+const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,1,0);
+scene.add(new THREE.HemisphereLight(0xffffff,0x40404a,1.1));
+const dl=new THREE.DirectionalLight(0xffffff,1.5);dl.position.set(4,7,5);scene.add(dl);
+scene.add(new THREE.GridHelper(12,12,0x40454f,0x2a2e36));
+
+let char, loopOn=true, activeBtn=null;
+
+function buildMenu(clips){
+  const cats={};
+  clips.forEach(c=>{(cats[c.category]=cats[c.category]||[]).push(c);});
+  listEl.innerHTML='';
+  Object.keys(cats).sort().forEach(cat=>{
+    const h=document.createElement('div');h.className='cat';h.textContent=cat+' ('+cats[cat].length+')';listEl.appendChild(h);
+    cats[cat].sort((a,b)=>a.name.localeCompare(b.name)).forEach(clip=>{
+      const b=document.createElement('button');b.className='anim';b.textContent=clip.name;b.dataset.name=clip.name;
+      b.onclick=async()=>{
+        if(activeBtn)activeBtn.classList.remove('active');
+        b.classList.add('active');activeBtn=b;
+        await char.play(clip.name,{loop:loopOn});
+        nowEl.innerHTML='Playing: <b>'+clip.name+'</b> · '+clip.duration+'s';
+      };
+      listEl.appendChild(b);
+    });
+  });
+}
+
+document.getElementById('search').oninput=e=>{
+  const q=e.target.value.toLowerCase();
+  document.querySelectorAll('button.anim').forEach(b=>{
+    b.style.display=b.dataset.name.toLowerCase().includes(q)?'block':'none';
+  });
+};
+
+(async()=>{
+  char=new KatanaCharacter(scene,BASE,{THREE,GLTFLoader});
+  await char.load();
+  buildMenu(char.manifest.clips);
+  nowEl.textContent=char.manifest.clips.length+' clips · pick one';
+  char.play('Idle_ver_A').then(()=>nowEl.innerHTML='Playing: <b>Idle_ver_A</b>');
+})().catch(e=>{nowEl.textContent='ERROR: '+e.message;console.error(e);});
+
+document.getElementById('pause').onclick=()=>{if(char&&char.current)char.current.paused=!char.current.paused;};
+document.getElementById('restart').onclick=()=>{if(char&&char.current)char.current.reset().play();};
+document.querySelectorAll('#ctrlbar button[data-sp]').forEach(b=>b.onclick=()=>{if(char&&char.mixer)char.mixer.timeScale=parseFloat(b.dataset.sp);});
+document.getElementById('loopChk').onchange=e=>{loopOn=e.target.checked;if(activeBtn)activeBtn.click();};
+
+const clock=new THREE.Clock();
+(function tick(){requestAnimationFrame(tick);if(char)char.update(clock.getDelta());controls.update();renderer.render(scene,camera);})();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script>
+</body>
+</html>
