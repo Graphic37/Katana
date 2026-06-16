@@ -37,6 +37,18 @@
       "file": "anim/reactions/Damage_Die_Root.glb"
     },
     {
+      "name": "Skill_H_return",
+      "category": "skills",
+      "duration": 2.333,
+      "file": "anim/skills/Skill_H_return.glb"
+    },
+    {
+      "name": "Skill_I",
+      "category": "skills",
+      "duration": 2.042,
+      "file": "anim/skills/Skill_I.glb"
+    },
+    {
       "name": "Attack_3Combo_1",
       "category": "attacks",
       "duration": 1.25,
@@ -85,6 +97,18 @@
       "file": "anim/attacks/Attack_3Combo_3_Inplace.glb"
     },
     {
+      "name": "Attack_3Combo_3_short distance",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_3Combo_3_short distance.glb"
+    },
+    {
+      "name": "Attack_3Combo_3_short distance_Return",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_3Combo_3_short distance_Return.glb"
+    },
+    {
       "name": "Attack_3Combo_ALL",
       "category": "attacks",
       "duration": 3.667,
@@ -121,6 +145,30 @@
       "file": "anim/attacks/Attack_4Combo_2_Inplace.glb"
     },
     {
+      "name": "Attack_4Combo_3",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Attack_4Combo_3.glb"
+    },
+    {
+      "name": "Attack_4Combo_3_Inplace",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Attack_4Combo_3_Inplace.glb"
+    },
+    {
+      "name": "Attack_4Combo_4",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Attack_4Combo_4.glb"
+    },
+    {
+      "name": "Attack_4Combo_4_Inplace",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Attack_4Combo_4_Inplace.glb"
+    },
+    {
       "name": "Attack_4Combo_ALL",
       "category": "attacks",
       "duration": 2.333,
@@ -131,6 +179,12 @@
       "category": "attacks",
       "duration": 2.333,
       "file": "anim/attacks/Attack_4Combo_ALL_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_1",
+      "category": "attacks",
+      "duration": 1.083,
+      "file": "anim/attacks/Attack_5Combo_1.glb"
     },
     {
       "name": "Attack_5Combo_1_Inplace",
@@ -145,10 +199,232 @@
       "file": "anim/attacks/Attack_5Combo_1_Move.glb"
     },
     {
+      "name": "Attack_5Combo_2",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Attack_5Combo_2.glb"
+    },
+    {
+      "name": "Attack_5Combo_2_Inplace",
+      "category": "attacks",
+      "duration": 0.833,
+      "file": "anim/attacks/Attack_5Combo_2_Inplace.glb"
+    },
+    {
       "name": "Attack_5Combo_2_Move",
       "category": "attacks",
       "duration": 0.833,
       "file": "anim/attacks/Attack_5Combo_2_Move.glb"
+    },
+    {
+      "name": "Attack_5Combo_3",
+      "category": "attacks",
+      "duration": 1.5,
+      "file": "anim/attacks/Attack_5Combo_3.glb"
+    },
+    {
+      "name": "Attack_5Combo_3_Inplace",
+      "category": "attacks",
+      "duration": 1.5,
+      "file": "anim/attacks/Attack_5Combo_3_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_4",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_5Combo_4.glb"
+    },
+    {
+      "name": "Attack_5Combo_4_Inplace",
+      "category": "attacks",
+      "duration": 2.333,
+      "file": "anim/attacks/Attack_5Combo_4_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_5",
+      "category": "attacks",
+      "duration": 1.667,
+      "file": "anim/attacks/Attack_5Combo_5.glb"
+    },
+    {
+      "name": "Attack_5Combo_5_Inplace",
+      "category": "attacks",
+      "duration": 1.667,
+      "file": "anim/attacks/Attack_5Combo_5_Inplace.glb"
+    },
+    {
+      "name": "Attack_5Combo_ALL",
+      "category": "attacks",
+      "duration": 4.75,
+      "file": "anim/attacks/Attack_5Combo_ALL.glb"
+    },
+    {
+      "name": "Attack_5Combo_ALL_Inplace",
+      "category": "attacks",
+      "duration": 4.75,
+      "file": "anim/attacks/Attack_5Combo_ALL_Inplace.glb"
+    },
+    {
+      "name": "Damage_Back_Down_Loop",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Back_Down_Loop.glb"
+    },
+    {
+      "name": "Damage_Back_Down_Smash",
+      "category": "reactions",
+      "duration": 0.917,
+      "file": "anim/reactions/Damage_Back_Down_Smash.glb"
+    },
+    {
+      "name": "Damage_Back_Down_StandUp",
+      "category": "reactions",
+      "duration": 0.833,
+      "file": "anim/reactions/Damage_Back_Down_StandUp.glb"
+    },
+    {
+      "name": "Damage_Back_Small_ver_A",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Back_Small_ver_A.glb"
+    },
+    {
+      "name": "Damage_Back_Small_ver_B",
+      "category": "reactions",
+      "duration": 0.5,
+      "file": "anim/reactions/Damage_Back_Small_ver_B.glb"
+    },
+    {
+      "name": "Damage_Front_Big_ver_A",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Front_Big_ver_A.glb"
+    },
+    {
+      "name": "Damage_Front_Big_ver_B",
+      "category": "reactions",
+      "duration": 0.583,
+      "file": "anim/reactions/Damage_Front_Big_ver_B.glb"
+    },
+    {
+      "name": "Damage_Front_Big_ver_C",
+      "category": "reactions",
+      "duration": 0.792,
+      "file": "anim/reactions/Damage_Front_Big_ver_C.glb"
+    },
+    {
+      "name": "Damage_Front_Big_ver_D",
+      "category": "reactions",
+      "duration": 1.083,
+      "file": "anim/reactions/Damage_Front_Big_ver_D.glb"
+    },
+    {
+      "name": "Damage_Front_Down_Loop",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Front_Down_Loop.glb"
+    },
+    {
+      "name": "Damage_Front_Down_StandUp",
+      "category": "reactions",
+      "duration": 0.833,
+      "file": "anim/reactions/Damage_Front_Down_StandUp.glb"
+    },
+    {
+      "name": "Damage_Front_Flying_ver_A",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Front_Flying_ver_A.glb"
+    },
+    {
+      "name": "Damage_Front_Flying_ver_A_ZeroHeight",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Front_Flying_ver_A_ZeroHeight.glb"
+    },
+    {
+      "name": "Damage_Front_Flying_ver_B",
+      "category": "reactions",
+      "duration": 0.5,
+      "file": "anim/reactions/Damage_Front_Flying_ver_B.glb"
+    },
+    {
+      "name": "Damage_Front_Flying_ver_B_ZeroHeight",
+      "category": "reactions",
+      "duration": 0.5,
+      "file": "anim/reactions/Damage_Front_Flying_ver_B_ZeroHeight.glb"
+    },
+    {
+      "name": "Damage_Front_High_KnockDown",
+      "category": "reactions",
+      "duration": 1.375,
+      "file": "anim/reactions/Damage_Front_High_KnockDown.glb"
+    },
+    {
+      "name": "Damage_Front_High_KnockDown_ZeroHeight",
+      "category": "reactions",
+      "duration": 1.375,
+      "file": "anim/reactions/Damage_Front_High_KnockDown_ZeroHeight.glb"
+    },
+    {
+      "name": "Damage_Front_Small_ver_A",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Front_Small_ver_A.glb"
+    },
+    {
+      "name": "Damage_Front_Small_ver_B",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Damage_Front_Small_ver_B.glb"
+    },
+    {
+      "name": "Damage_Front_Small_ver_C",
+      "category": "reactions",
+      "duration": 0.833,
+      "file": "anim/reactions/Damage_Front_Small_ver_C.glb"
+    },
+    {
+      "name": "Damage_Left_Small_ver_A",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Left_Small_ver_A.glb"
+    },
+    {
+      "name": "Damage_Left_Small_ver_B",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Left_Small_ver_B.glb"
+    },
+    {
+      "name": "Damage_Right_Small_ver_A",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Right_Small_ver_A.glb"
+    },
+    {
+      "name": "Damage_Right_Small_ver_B",
+      "category": "reactions",
+      "duration": 0.667,
+      "file": "anim/reactions/Damage_Right_Small_ver_B.glb"
+    },
+    {
+      "name": "Damage_Right_Small_ver_C",
+      "category": "reactions",
+      "duration": 1.333,
+      "file": "anim/reactions/Damage_Right_Small_ver_C.glb"
+    },
+    {
+      "name": "Dash_Attack_ver_A",
+      "category": "attacks",
+      "duration": 1.167,
+      "file": "anim/attacks/Dash_Attack_ver_A.glb"
+    },
+    {
+      "name": "Dash_Attack_ver_B",
+      "category": "attacks",
+      "duration": 1.0,
+      "file": "anim/attacks/Dash_Attack_ver_B.glb"
     },
     {
       "name": "Jump_Attack_Combo_1",
@@ -307,6 +583,168 @@
       "file": "anim/movement/Jump_Block_Root.glb"
     },
     {
+      "name": "KnockDown_Back_BW_Rolling_StandUp",
+      "category": "reactions",
+      "duration": 1.042,
+      "file": "anim/reactions/KnockDown_Back_BW_Rolling_StandUp.glb"
+    },
+    {
+      "name": "KnockDown_Back_Big",
+      "category": "reactions",
+      "duration": 1.0,
+      "file": "anim/reactions/KnockDown_Back_Big.glb"
+    },
+    {
+      "name": "KnockDown_Back_Damage",
+      "category": "reactions",
+      "duration": 0.5,
+      "file": "anim/reactions/KnockDown_Back_Damage.glb"
+    },
+    {
+      "name": "KnockDown_Back_FW_Rolling_StandUp",
+      "category": "reactions",
+      "duration": 1.042,
+      "file": "anim/reactions/KnockDown_Back_FW_Rolling_StandUp.glb"
+    },
+    {
+      "name": "KnockDown_Back_Loop",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/KnockDown_Back_Loop.glb"
+    },
+    {
+      "name": "KnockDown_Back_Smash",
+      "category": "reactions",
+      "duration": 0.917,
+      "file": "anim/reactions/KnockDown_Back_Smash.glb"
+    },
+    {
+      "name": "KnockDown_Back_ver_A",
+      "category": "reactions",
+      "duration": 1.417,
+      "file": "anim/reactions/KnockDown_Back_ver_A.glb"
+    },
+    {
+      "name": "KnockDown_Back_ver_B",
+      "category": "reactions",
+      "duration": 1.917,
+      "file": "anim/reactions/KnockDown_Back_ver_B.glb"
+    },
+    {
+      "name": "KnockDown_Front_BW_Rolling_StandUp",
+      "category": "reactions",
+      "duration": 0.917,
+      "file": "anim/reactions/KnockDown_Front_BW_Rolling_StandUp.glb"
+    },
+    {
+      "name": "KnockDown_Front_Big",
+      "category": "reactions",
+      "duration": 1.125,
+      "file": "anim/reactions/KnockDown_Front_Big.glb"
+    },
+    {
+      "name": "KnockDown_Front_Damage",
+      "category": "reactions",
+      "duration": 0.792,
+      "file": "anim/reactions/KnockDown_Front_Damage.glb"
+    },
+    {
+      "name": "KnockDown_Front_FW_Rolling_StandUp",
+      "category": "reactions",
+      "duration": 1.0,
+      "file": "anim/reactions/KnockDown_Front_FW_Rolling_StandUp.glb"
+    },
+    {
+      "name": "KnockDown_Front_Loop",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/KnockDown_Front_Loop.glb"
+    },
+    {
+      "name": "KnockDown_Front_Smash_Double",
+      "category": "reactions",
+      "duration": 1.583,
+      "file": "anim/reactions/KnockDown_Front_Smash_Double.glb"
+    },
+    {
+      "name": "KnockDown_Front_Smash_Double_Inplace",
+      "category": "reactions",
+      "duration": 1.583,
+      "file": "anim/reactions/KnockDown_Front_Smash_Double_Inplace.glb"
+    },
+    {
+      "name": "KnockDown_Front_Spear",
+      "category": "reactions",
+      "duration": 1.75,
+      "file": "anim/reactions/KnockDown_Front_Spear.glb"
+    },
+    {
+      "name": "KnockDown_Front_Spear_Inplace",
+      "category": "reactions",
+      "duration": 1.75,
+      "file": "anim/reactions/KnockDown_Front_Spear_Inplace.glb"
+    },
+    {
+      "name": "KnockDown_Front_ver_A",
+      "category": "reactions",
+      "duration": 1.042,
+      "file": "anim/reactions/KnockDown_Front_ver_A.glb"
+    },
+    {
+      "name": "Revenge_Guard_Accept",
+      "category": "reactions",
+      "duration": 0.25,
+      "file": "anim/reactions/Revenge_Guard_Accept.glb"
+    },
+    {
+      "name": "Revenge_Guard_Attack_ver_A",
+      "category": "attacks",
+      "duration": 1.667,
+      "file": "anim/attacks/Revenge_Guard_Attack_ver_A.glb"
+    },
+    {
+      "name": "Revenge_Guard_Attack_ver_B",
+      "category": "attacks",
+      "duration": 2.5,
+      "file": "anim/attacks/Revenge_Guard_Attack_ver_B.glb"
+    },
+    {
+      "name": "Revenge_Guard_End",
+      "category": "reactions",
+      "duration": 0.542,
+      "file": "anim/reactions/Revenge_Guard_End.glb"
+    },
+    {
+      "name": "Revenge_Guard_Loop",
+      "category": "reactions",
+      "duration": 1.0,
+      "file": "anim/reactions/Revenge_Guard_Loop.glb"
+    },
+    {
+      "name": "Revenge_Guard_Start",
+      "category": "reactions",
+      "duration": 0.333,
+      "file": "anim/reactions/Revenge_Guard_Start.glb"
+    },
+    {
+      "name": "Skill_A",
+      "category": "skills",
+      "duration": 1.5,
+      "file": "anim/skills/Skill_A.glb"
+    },
+    {
+      "name": "Skill_B",
+      "category": "skills",
+      "duration": 1.667,
+      "file": "anim/skills/Skill_B.glb"
+    },
+    {
+      "name": "Skill_C",
+      "category": "skills",
+      "duration": 1.667,
+      "file": "anim/skills/Skill_C.glb"
+    },
+    {
       "name": "Skill_D",
       "category": "skills",
       "duration": 2.167,
@@ -317,6 +755,42 @@
       "category": "skills",
       "duration": 2.167,
       "file": "anim/skills/Skill_D_Fix.glb"
+    },
+    {
+      "name": "Skill_E",
+      "category": "skills",
+      "duration": 1.333,
+      "file": "anim/skills/Skill_E.glb"
+    },
+    {
+      "name": "Skill_F",
+      "category": "skills",
+      "duration": 1.667,
+      "file": "anim/skills/Skill_F.glb"
+    },
+    {
+      "name": "Skill_G",
+      "category": "skills",
+      "duration": 2.083,
+      "file": "anim/skills/Skill_G.glb"
+    },
+    {
+      "name": "Skill_H",
+      "category": "skills",
+      "duration": 2.333,
+      "file": "anim/skills/Skill_H.glb"
+    },
+    {
+      "name": "StandUp_Revenge",
+      "category": "reactions",
+      "duration": 1.042,
+      "file": "anim/reactions/StandUp_Revenge.glb"
+    },
+    {
+      "name": "UpperAttack",
+      "category": "attacks",
+      "duration": 2.5,
+      "file": "anim/attacks/UpperAttack.glb"
     },
     {
       "name": "UpperAttack_ZeroHeight",
@@ -619,6 +1093,36 @@
       "file": "anim/movement/Crouch_ver_B_R90_Root.glb"
     },
     {
+      "name": "Dodge_Back",
+      "category": "movement",
+      "duration": 0.833,
+      "file": "anim/movement/Dodge_Back.glb"
+    },
+    {
+      "name": "Dodge_Front",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Dodge_Front.glb"
+    },
+    {
+      "name": "Dodge_Left",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Dodge_Left.glb"
+    },
+    {
+      "name": "Dodge_Right",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Dodge_Right.glb"
+    },
+    {
+      "name": "Double_Jump_ALL",
+      "category": "movement",
+      "duration": 2.0,
+      "file": "anim/movement/Double_Jump_ALL.glb"
+    },
+    {
       "name": "Double_Jump_ALL_ZeroHeight",
       "category": "movement",
       "duration": 2.0,
@@ -629,6 +1133,12 @@
       "category": "movement",
       "duration": 2.0,
       "file": "anim/movement/Double_Jump_ALL_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Double_Jump_End",
+      "category": "movement",
+      "duration": 1.25,
+      "file": "anim/movement/Double_Jump_End.glb"
     },
     {
       "name": "Double_Jump_End_ZeroHeight",
@@ -643,6 +1153,12 @@
       "file": "anim/movement/Double_Jump_End_ZeroHeight_Z0.glb"
     },
     {
+      "name": "Double_Jump_Loop",
+      "category": "movement",
+      "duration": 0.208,
+      "file": "anim/movement/Double_Jump_Loop.glb"
+    },
+    {
       "name": "Double_Jump_Loop_ZeroHeight",
       "category": "movement",
       "duration": 0.208,
@@ -653,6 +1169,12 @@
       "category": "movement",
       "duration": 0.208,
       "file": "anim/movement/Double_Jump_Loop_ZeroHeight_Z0.glb"
+    },
+    {
+      "name": "Double_Jump_Start",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Double_Jump_Start.glb"
     },
     {
       "name": "Double_Jump_Start_ZeroHeight",
@@ -1027,6 +1549,12 @@
       "file": "anim/movement/Idle_ver_B_To_Crouch_ver_B_Idle_Root.glb"
     },
     {
+      "name": "Intro",
+      "category": "movement",
+      "duration": 2.833,
+      "file": "anim/movement/Intro.glb"
+    },
+    {
       "name": "Jogging_8Way_verA_B",
       "category": "movement",
       "duration": 0.917,
@@ -1363,6 +1891,18 @@
       "file": "anim/movement/Jogging_B_To_Jogging_B_Turn_R90_Root.glb"
     },
     {
+      "name": "Jump_ALL",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Jump_ALL.glb"
+    },
+    {
+      "name": "Jump_ALL_ZeroHeight",
+      "category": "movement",
+      "duration": 1.042,
+      "file": "anim/movement/Jump_ALL_ZeroHeight.glb"
+    },
+    {
       "name": "Jump_End",
       "category": "movement",
       "duration": 0.5,
@@ -1417,6 +1957,18 @@
       "file": "anim/movement/Jump_Start_ZeroHeight_Z0.glb"
     },
     {
+      "name": "Run_Fast_Dodge_Left",
+      "category": "movement",
+      "duration": 1.292,
+      "file": "anim/movement/Run_Fast_Dodge_Left.glb"
+    },
+    {
+      "name": "Run_Fast_Dodge_Right",
+      "category": "movement",
+      "duration": 1.083,
+      "file": "anim/movement/Run_Fast_Dodge_Right.glb"
+    },
+    {
       "name": "Run_Fast_Root_ver_A",
       "category": "movement",
       "duration": 0.375,
@@ -1465,6 +2017,12 @@
       "file": "anim/movement/Run_Fast_ver_B.glb"
     },
     {
+      "name": "Run_Injured",
+      "category": "movement",
+      "duration": 0.667,
+      "file": "anim/movement/Run_Injured.glb"
+    },
+    {
       "name": "Run_Injured_Damage_ver_A",
       "category": "reactions",
       "duration": 2.167,
@@ -1475,6 +2033,12 @@
       "category": "reactions",
       "duration": 1.5,
       "file": "anim/reactions/Run_Injured_Damage_ver_A_Root.glb"
+    },
+    {
+      "name": "Run_Injured_Damage_ver_B",
+      "category": "reactions",
+      "duration": 2.167,
+      "file": "anim/reactions/Run_Injured_Damage_ver_B.glb"
     },
     {
       "name": "Run_Injured_Damage_ver_B_Root",
